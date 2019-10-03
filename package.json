@@ -12,7 +12,7 @@
     "lint:fix": "tslint --fix src/**/*.ts",
     "build": "tsc",
     "start": "node build/index.js",
-    "dev": "nodemon --watch src -e ts --exec node -r ts-node/register src/index.ts"
+    "dev": "nodemon --watch src -e ts --exec node --inspect=9229 -r ts-node/register src/index.ts"
   },
   "author": "Nater Jorde (nater@iamnater.com)",
   "license": "MIT",
