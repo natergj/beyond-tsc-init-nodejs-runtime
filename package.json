@@ -2,6 +2,9 @@
   "name": "beyond-tsc-init-nodejs-runtime",
   "version": "1.0.0",
   "description": "Tutorial code for setting up typescript project from scratch to be used as nodejs runtime",
+  "engines": {
+    "node": ">=12.10.0"
+  },
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
